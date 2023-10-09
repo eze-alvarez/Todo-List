@@ -90,9 +90,16 @@
   text-decoration:#5e5b60 line-through;
   transition: all 1s ease
 }
+.item > div{
+  display: flex;
+  align-items: center;
+}
 .item > div > input{
   margin: 0 0.5rem;
   height: 1.5rem;
+}
+.item > div > span{
+ font-size: 1rem;
 }
 .delete-btn{
   background-color: red;

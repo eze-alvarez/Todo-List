@@ -9,7 +9,7 @@ export default function TodoItem ({ todo, onCompleted, onDeleteItem }) {
           checked={todo.completed}
           onChange={() => onCompleted(todo.id)}
         />
-        {todo.task}
+        <span>{todo.task}</span>
       </div>
 
       <button
