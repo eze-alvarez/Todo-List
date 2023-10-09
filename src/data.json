@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1 ,
+        "task": "play computer",
+        "completed": false
+    },
+    {
+        "id": 2 ,
+        "task": "eat pizza",
+        "completed": false
+    },
+    {
+        "id": 3 ,
+        "task": "gym",
+        "completed": true
+    }
+]
